@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dbspotmusic?useSSL=false&createDatabaseIfNotExist=true
+    username: root
+    password: "#eCsL2212067@"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        hbm2ddl:
+          auto: update
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
